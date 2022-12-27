@@ -17,11 +17,6 @@ This example app shows a simple eCommerce Application with Spring Boot API and C
 - [License](#license)
 
 ## Getting Started
-
-To install this application, run the following commands:
-
-```bash
-git clone https://github.com/devRobots/spring-boot-ecommerce.git spring-boot-ecommerce
 cd spring-boot-ecommerce
 ```
 
