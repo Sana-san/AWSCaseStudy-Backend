@@ -2,7 +2,7 @@ package com.casestudy.springbootecommerce.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.casestudy.springbootecommerce.model.User;
+import com.casestudy.springbootecommerce.entity.User;
 
 /**
  * The Interface UserRepository.

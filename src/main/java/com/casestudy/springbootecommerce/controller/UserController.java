@@ -1,4 +1,4 @@
-package com.casestudy.springbootecommerce.resource;
+package com.casestudy.springbootecommerce.controller;
 
 import java.util.List;
 
@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.casestudy.springbootecommerce.model.User;
+import com.casestudy.springbootecommerce.entity.User;
 import com.casestudy.springbootecommerce.repository.UserRepository;
 
 /**
@@ -26,7 +26,7 @@ import com.casestudy.springbootecommerce.repository.UserRepository;
 @RestController
 @RequestMapping("/api/users")
 @CrossOrigin("*")
-public class UserResource {
+public class UserController {
 	
 	/** The user repository. */
 	@Autowired

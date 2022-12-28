@@ -1,4 +1,4 @@
-package com.casestudy.springbootecommerce.model;
+package com.casestudy.springbootecommerce.entity;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.casestudy.springbootecommerce.resource;
+package com.casestudy.springbootecommerce.controller;
 
 import java.util.List;
 
@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.casestudy.springbootecommerce.model.Category;
+import com.casestudy.springbootecommerce.entity.Category;
 import com.casestudy.springbootecommerce.repository.CategoryRepository;
 
 /**
@@ -26,7 +26,7 @@ import com.casestudy.springbootecommerce.repository.CategoryRepository;
 @RestController
 @RequestMapping("/api/categories")
 @CrossOrigin("*")
-public class CategoryResource {
+public class CategoryController {
 
 	/** The category repository. */
 	@Autowired

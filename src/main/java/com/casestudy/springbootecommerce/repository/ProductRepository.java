@@ -2,7 +2,7 @@ package com.casestudy.springbootecommerce.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.casestudy.springbootecommerce.model.Product;
+import com.casestudy.springbootecommerce.entity.Product;
 
 /**
  * The Interface ProductRepository.

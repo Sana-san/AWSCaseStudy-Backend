@@ -2,7 +2,7 @@ package com.casestudy.springbootecommerce.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.casestudy.springbootecommerce.model.Category;
+import com.casestudy.springbootecommerce.entity.Category;
 
 /**
  * The Interface CategoryRepository.
